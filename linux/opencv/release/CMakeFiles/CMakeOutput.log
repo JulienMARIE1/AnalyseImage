@@ -1,0 +1,1284 @@
+The system is: Linux - 3.16.0-4-686-pae - i686
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4220721578/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4220721578.dir/build.make CMakeFiles/cmTryCompileExec4220721578.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4220721578.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTryCompileExec4220721578.dir/testCXXCompiler.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec4220721578
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4220721578.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec4220721578.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec4220721578 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2566625359/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2566625359.dir/build.make CMakeFiles/cmTryCompileExec2566625359.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2566625359
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2566625359.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2566625359 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
+Target: i586-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2566625359' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQMJPB6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2566625359 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2566625359/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2566625359.dir/build.make CMakeFiles/cmTryCompileExec2566625359.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -fPIE   -o CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2566625359]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2566625359.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2566625359 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: i586-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2566625359' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQMJPB6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec2566625359 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQMJPB6.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2566625359] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec2566625359.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9] ==> [/usr/lib/gcc/i586-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i586-linux-gnu/4.9;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3813117736/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3813117736.dir/build.make CMakeFiles/cmTryCompileExec3813117736.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3813117736.dir/testCCompiler.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec3813117736.dir/testCCompiler.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3813117736
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3813117736.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3813117736.dir/testCCompiler.c.o  -o cmTryCompileExec3813117736 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec276599850/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec276599850.dir/build.make CMakeFiles/cmTryCompileExec276599850.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec276599850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec276599850.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec276599850 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper
+Target: i586-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec276599850' '-rdynamic' '-mtune=generic' '-march=i586'
+ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccShd1tj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec276599850 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec276599850/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec276599850.dir/build.make CMakeFiles/cmTryCompileExec276599850.dir/build]
+  ignore line: [make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -fPIE   -o CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec276599850]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec276599850.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec276599850 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: i586-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --with-arch-32=i586 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i586-linux-gnu --host=i586-linux-gnu --target=i586-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i586-linux-gnu/4.9/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i586-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec276599850' '-rdynamic' '-mtune=generic' '-march=i586']
+  link line: [ /usr/lib/gcc/i586-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccShd1tj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec276599850 /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/i586-linux-gnu/4.9 -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu -L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i586-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i586-linux-gnu/4.9/crtend.o /usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/i586-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccShd1tj.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec276599850] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu]
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec276599850.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9] ==> [/usr/lib/gcc/i586-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i586-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i586-linux-gnu/4.9;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1587282271/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1587282271.dir/build.make CMakeFiles/cmTryCompileExec1587282271.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1587282271.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1587282271.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1587282271
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1587282271.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1587282271.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1587282271 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1578802528/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1578802528.dir/build.make CMakeFiles/cmTryCompileExec1578802528.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1578802528.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1578802528.dir/CheckSymbolExists.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1578802528
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1578802528.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1578802528.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1578802528 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+File /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec87794080/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec87794080.dir/build.make CMakeFiles/cmTryCompileExec87794080.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec87794080.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec87794080.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec87794080
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec87794080.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec87794080.dir/CheckIncludeFile.c.o  -o cmTryCompileExec87794080 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2349926810/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2349926810.dir/build.make CMakeFiles/cmTryCompileExec2349926810.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2349926810.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2349926810.dir/CheckSymbolExists.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2349926810
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2349926810.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2349926810.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2349926810 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+File /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec470855187/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec470855187.dir/build.make CMakeFiles/cmTryCompileExec470855187.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec470855187.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec470855187.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec470855187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec470855187.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec470855187.dir/CheckIncludeFile.c.o  -o cmTryCompileExec470855187 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3592599616/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3592599616.dir/build.make CMakeFiles/cmTryCompileExec3592599616.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3592599616.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3592599616.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3592599616
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3592599616.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3592599616.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3592599616 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec199680008/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec199680008.dir/build.make CMakeFiles/cmTryCompileExec199680008.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec199680008.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec199680008.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec199680008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec199680008.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec199680008.dir/CheckIncludeFile.c.o  -o cmTryCompileExec199680008 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec434018261/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec434018261.dir/build.make CMakeFiles/cmTryCompileExec434018261.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec434018261.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec434018261.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec434018261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec434018261.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec434018261.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec434018261 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1410193646/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1410193646.dir/build.make CMakeFiles/cmTryCompileExec1410193646.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1410193646.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1410193646.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1410193646
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1410193646.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1410193646.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1410193646 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec451738143/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec451738143.dir/build.make CMakeFiles/cmTryCompileExec451738143.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec451738143.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec451738143.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec451738143
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec451738143.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec451738143.dir/CheckIncludeFile.c.o  -o cmTryCompileExec451738143 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec545032559/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec545032559.dir/build.make CMakeFiles/cmTryCompileExec545032559.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec545032559.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec545032559.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec545032559
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec545032559.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec545032559.dir/CheckIncludeFile.c.o  -o cmTryCompileExec545032559 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2479865362/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2479865362.dir/build.make CMakeFiles/cmTryCompileExec2479865362.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2479865362.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2479865362.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2479865362
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2479865362.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2479865362.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2479865362 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4279118134/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4279118134.dir/build.make CMakeFiles/cmTryCompileExec4279118134.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4279118134.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec4279118134.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4279118134
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4279118134.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4279118134.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4279118134 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1292948940/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1292948940.dir/build.make CMakeFiles/cmTryCompileExec1292948940.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1292948940.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1292948940.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1292948940
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1292948940.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1292948940.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1292948940 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file search.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2956856185/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2956856185.dir/build.make CMakeFiles/cmTryCompileExec2956856185.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2956856185.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2956856185.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2956856185
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2956856185.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2956856185.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2956856185 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1655105537/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1655105537.dir/build.make CMakeFiles/cmTryCompileExec1655105537.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1655105537.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1655105537.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1655105537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1655105537.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1655105537.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1655105537 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1734449235/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1734449235.dir/build.make CMakeFiles/cmTryCompileExec1734449235.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1734449235.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1734449235.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1734449235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1734449235.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1734449235.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1734449235 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1466640853/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1466640853.dir/build.make CMakeFiles/cmTryCompileExec1466640853.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1466640853.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1466640853.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1466640853
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1466640853.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1466640853.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1466640853 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3835173204/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3835173204.dir/build.make CMakeFiles/cmTryCompileExec3835173204.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3835173204.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3835173204.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3835173204
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3835173204.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3835173204.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3835173204 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test C_HAS_inline succeded with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3487786602/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3487786602.dir/build.make CMakeFiles/cmTryCompileExec3487786602.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3487786602.dir/src.c.o
+/usr/bin/cc  -Dinline=inline -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3487786602.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:3:29: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+         static inline foo_t static_foo() {return 0;}
+                             ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:4:15: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+         foo_t foo(){return 0;}
+               ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:5:22: warning: unused parameter ‘argc’ [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                      ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:5:34: warning: unused parameter ‘argv’ [-Wunused-parameter]
+         int main(int argc, char *argv[]) {return 0;}
+                                  ^
+Linking C executable cmTryCompileExec3487786602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3487786602.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DC_HAS_inline -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3487786602.dir/src.c.o  -o cmTryCompileExec3487786602 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Determining size of signed short passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1729657981/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1729657981.dir/build.make CMakeFiles/cmTryCompileExec1729657981.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1729657981.dir/SIZEOF_SIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1729657981.dir/SIZEOF_SIGNED_SHORT.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_SHORT.c
+Linking C executable cmTryCompileExec1729657981
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1729657981.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1729657981.dir/SIZEOF_SIGNED_SHORT.c.o  -o cmTryCompileExec1729657981 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3746942060/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3746942060.dir/build.make CMakeFiles/cmTryCompileExec3746942060.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3746942060.dir/SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3746942060.dir/SIZEOF_UNSIGNED_SHORT.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec3746942060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3746942060.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3746942060.dir/SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec3746942060 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed int passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1743692317/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1743692317.dir/build.make CMakeFiles/cmTryCompileExec1743692317.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1743692317.dir/SIZEOF_SIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1743692317.dir/SIZEOF_SIGNED_INT.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_INT.c
+Linking C executable cmTryCompileExec1743692317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1743692317.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1743692317.dir/SIZEOF_SIGNED_INT.c.o  -o cmTryCompileExec1743692317 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1469383835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1469383835.dir/build.make CMakeFiles/cmTryCompileExec1469383835.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1469383835.dir/SIZEOF_UNSIGNED_INT.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1469383835.dir/SIZEOF_UNSIGNED_INT.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTryCompileExec1469383835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1469383835.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1469383835.dir/SIZEOF_UNSIGNED_INT.c.o  -o cmTryCompileExec1469383835 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed long passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec692648764/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec692648764.dir/build.make CMakeFiles/cmTryCompileExec692648764.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec692648764.dir/SIZEOF_SIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec692648764.dir/SIZEOF_SIGNED_LONG.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG.c
+Linking C executable cmTryCompileExec692648764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec692648764.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec692648764.dir/SIZEOF_SIGNED_LONG.c.o  -o cmTryCompileExec692648764 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1493422430/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1493422430.dir/build.make CMakeFiles/cmTryCompileExec1493422430.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1493422430.dir/SIZEOF_UNSIGNED_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1493422430.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTryCompileExec1493422430
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1493422430.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1493422430.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTryCompileExec1493422430 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3962934547/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3962934547.dir/build.make CMakeFiles/cmTryCompileExec3962934547.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3962934547.dir/SIZEOF_SIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3962934547.dir/SIZEOF_SIGNED_LONG_LONG.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_SIGNED_LONG_LONG.c
+Linking C executable cmTryCompileExec3962934547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3962934547.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3962934547.dir/SIZEOF_SIGNED_LONG_LONG.c.o  -o cmTryCompileExec3962934547 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2941123179/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2941123179.dir/build.make CMakeFiles/cmTryCompileExec2941123179.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2941123179.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2941123179.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTryCompileExec2941123179
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2941123179.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2941123179.dir/SIZEOF_UNSIGNED_LONG_LONG.c.o  -o cmTryCompileExec2941123179 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3317596425/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3317596425.dir/build.make CMakeFiles/cmTryCompileExec3317596425.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3317596425.dir/SIZEOF_UNSIGNED_CHAR_P.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3317596425.dir/SIZEOF_UNSIGNED_CHAR_P.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_CHAR_P.c
+Linking C executable cmTryCompileExec3317596425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3317596425.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3317596425.dir/SIZEOF_UNSIGNED_CHAR_P.c.o  -o cmTryCompileExec3317596425 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec510375072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec510375072.dir/build.make CMakeFiles/cmTryCompileExec510375072.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec510375072.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec510375072.dir/SIZEOF_SIZE_T.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTryCompileExec510375072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec510375072.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec510375072.dir/SIZEOF_SIZE_T.c.o  -o cmTryCompileExec510375072 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining size of ptrdiff_t passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3306367435/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3306367435.dir/build.make CMakeFiles/cmTryCompileExec3306367435.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3306367435.dir/SIZEOF_PTRDIFF_T.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3306367435.dir/SIZEOF_PTRDIFF_T.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/SIZEOF_PTRDIFF_T.c
+Linking C executable cmTryCompileExec3306367435
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3306367435.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3306367435.dir/SIZEOF_PTRDIFF_T.c.o  -o cmTryCompileExec3306367435 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3293493432/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3293493432.dir/build.make CMakeFiles/cmTryCompileExec3293493432.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3293493432.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3293493432.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘floor’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3293493432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3293493432.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=floor -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3293493432.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3293493432 -rdynamic -lm 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4212572594/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4212572594.dir/build.make CMakeFiles/cmTryCompileExec4212572594.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4212572594.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec4212572594.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘pow’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec4212572594
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4212572594.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=pow -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4212572594.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4212572594 -rdynamic -lm 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2536337441/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2536337441.dir/build.make CMakeFiles/cmTryCompileExec2536337441.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2536337441.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2536337441.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2536337441
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2536337441.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sqrt -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2536337441.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2536337441 -rdynamic -lm 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isascii exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3622804779/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3622804779.dir/build.make CMakeFiles/cmTryCompileExec3622804779.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3622804779.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3622804779.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘isascii’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3622804779
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3622804779.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=isascii -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3622804779.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3622804779 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec274069962/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec274069962.dir/build.make CMakeFiles/cmTryCompileExec274069962.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec274069962.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec274069962.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec274069962
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec274069962.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memset -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec274069962.dir/CheckFunctionExists.c.o  -o cmTryCompileExec274069962 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2258425024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2258425024.dir/build.make CMakeFiles/cmTryCompileExec2258425024.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2258425024.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2258425024.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec2258425024
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2258425024.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2258425024.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2258425024 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1615250647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1615250647.dir/build.make CMakeFiles/cmTryCompileExec1615250647.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1615250647.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1615250647.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec1615250647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1615250647.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=getopt -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1615250647.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1615250647 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2253486406/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2253486406.dir/build.make CMakeFiles/cmTryCompileExec2253486406.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2253486406.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2253486406.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2253486406
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2253486406.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=memmove -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2253486406.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2253486406 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1408248719/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1408248719.dir/build.make CMakeFiles/cmTryCompileExec1408248719.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1408248719.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1408248719.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1408248719
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1408248719.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strcasecmp -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1408248719.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1408248719 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2251956197/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2251956197.dir/build.make CMakeFiles/cmTryCompileExec2251956197.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2251956197.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2251956197.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2251956197
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2251956197.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strchr -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2251956197.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2251956197 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1392585532/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1392585532.dir/build.make CMakeFiles/cmTryCompileExec1392585532.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1392585532.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1392585532.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1392585532
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1392585532.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strrchr -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1392585532.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1392585532 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1059705322/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1059705322.dir/build.make CMakeFiles/cmTryCompileExec1059705322.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1059705322.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1059705322.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1059705322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1059705322.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strstr -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1059705322.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1059705322 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3685529296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3685529296.dir/build.make CMakeFiles/cmTryCompileExec3685529296.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3685529296.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3685529296.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec3685529296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3685529296.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3685529296.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3685529296 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2025686816/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2025686816.dir/build.make CMakeFiles/cmTryCompileExec2025686816.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2025686816.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2025686816.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec2025686816
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2025686816.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtol -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2025686816.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2025686816 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1550427869/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1550427869.dir/build.make CMakeFiles/cmTryCompileExec1550427869.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1550427869.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1550427869.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec1550427869
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1550427869.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=strtoull -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1550427869.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1550427869 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lfind exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4184038252/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4184038252.dir/build.make CMakeFiles/cmTryCompileExec4184038252.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4184038252.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec4184038252.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec4184038252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4184038252.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=lfind -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4184038252.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4184038252 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF succeded with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec199876523/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec199876523.dir/build.make CMakeFiles/cmTryCompileExec199876523.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec199876523.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec199876523.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec199876523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec199876523.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DHAVE_SNPRINTF -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec199876523.dir/src.c.o  -o cmTryCompileExec199876523 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the include file /usr/include/libpng/png.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1720207600/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1720207600.dir/build.make CMakeFiles/cmTryCompileExec1720207600.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1720207600.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1720207600.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1720207600
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1720207600.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1720207600.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1720207600 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file semaphore.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3953091451/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3953091451.dir/build.make CMakeFiles/cmTryCompileExec3953091451.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3953091451.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3953091451.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3953091451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3953091451.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3953091451.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3953091451 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1479953072/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1479953072.dir/build.make CMakeFiles/cmTryCompileExec1479953072.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1479953072.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1479953072.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1479953072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1479953072.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1479953072.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1479953072 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4233031509/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4233031509.dir/build.make CMakeFiles/cmTryCompileExec4233031509.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4233031509.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec4233031509.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec4233031509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4233031509.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4233031509.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4233031509 -rdynamic /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3500771797/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3500771797.dir/build.make CMakeFiles/cmTryCompileExec3500771797.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3500771797.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3500771797.dir/CheckIncludeFiles.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:5:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main(){return 0;}
+     ^
+Linking C executable cmTryCompileExec3500771797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3500771797.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3500771797.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3500771797 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec18407116/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec18407116.dir/build.make CMakeFiles/cmTryCompileExec18407116.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec18407116.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec18407116.dir/CheckSymbolExists.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec18407116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec18407116.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec18407116.dir/CheckSymbolExists.c.o  -o cmTryCompileExec18407116 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+File /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2436784826/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2436784826.dir/build.make CMakeFiles/cmTryCompileExec2436784826.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2436784826.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec2436784826.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec2436784826
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2436784826.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec2436784826.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2436784826 -rdynamic /usr/lib/liblapack.so.3gf /usr/lib/libblas.so.3gf 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dlerror exists in the dl passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1778611048/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1778611048.dir/build.make CMakeFiles/cmTryCompileExec1778611048.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1778611048.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1778611048.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec1778611048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1778611048.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=dlerror -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1778611048.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1778611048 -rdynamic -ldl 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+

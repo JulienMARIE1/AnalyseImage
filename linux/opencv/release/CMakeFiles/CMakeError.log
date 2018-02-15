@@ -1,0 +1,855 @@
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/cmake/checks/cxx11.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2063292129/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2063292129.dir/build.make CMakeFiles/cmTryCompileExec2063292129.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2063292129.dir/cxx11.cpp.o
+/usr/bin/c++    -fPIE   -o CMakeFiles/cmTryCompileExec2063292129.dir/cxx11.cpp.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/cmake/checks/cxx11.cpp
+/home/bravej/Documents/AnalyseImage/linux/opencv/cmake/checks/cxx11.cpp:4:2: error: #error "C++11 is not supported"
+ #error "C++11 is not supported"
+  ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/cmake/checks/cxx11.cpp: In function ‘int main()’:
+/home/bravej/Documents/AnalyseImage/linux/opencv/cmake/checks/cxx11.cpp:11:10: error: ‘res’ does not name a type
+     auto res = test();
+          ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/cmake/checks/cxx11.cpp:12:12: error: ‘res’ was not declared in this scope
+     return res;
+            ^
+CMakeFiles/cmTryCompileExec2063292129.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec2063292129.dir/cxx11.cpp.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2063292129.dir/cxx11.cpp.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec2063292129/fast' failed
+make: *** [cmTryCompileExec2063292129/fast] Error 2
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec689610026/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec689610026.dir/build.make CMakeFiles/cmTryCompileExec689610026.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec689610026.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -o CMakeFiles/cmTryCompileExec689610026.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec689610026
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec689610026.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec689610026.dir/src.cxx.o  -o cmTryCompileExec689610026 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec964578949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec964578949.dir/build.make CMakeFiles/cmTryCompileExec964578949.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec964578949.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wstrict-prototypes -o CMakeFiles/cmTryCompileExec964578949.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec964578949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec964578949.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec964578949.dir/src.cxx.o  -o cmTryCompileExec964578949 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3329330628/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3329330628.dir/build.make CMakeFiles/cmTryCompileExec3329330628.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3329330628.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -o CMakeFiles/cmTryCompileExec3329330628.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec3329330628
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3329330628.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3329330628.dir/src.c.o  -o cmTryCompileExec3329330628 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4085333772/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4085333772.dir/build.make CMakeFiles/cmTryCompileExec4085333772.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4085333772.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTryCompileExec4085333772.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec4085333772
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4085333772.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4085333772.dir/src.c.o  -o cmTryCompileExec4085333772 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3538591277/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3538591277.dir/build.make CMakeFiles/cmTryCompileExec3538591277.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3538591277.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -o CMakeFiles/cmTryCompileExec3538591277.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking CXX executable cmTryCompileExec3538591277
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3538591277.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3538591277.dir/src.cxx.o  -o cmTryCompileExec3538591277 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3901807647/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3901807647.dir/build.make CMakeFiles/cmTryCompileExec3901807647.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3901807647.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-unnamed-type-template-args -o CMakeFiles/cmTryCompileExec3901807647.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-unnamed-type-template-args"
+Linking C executable cmTryCompileExec3901807647
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3901807647.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3901807647.dir/src.c.o  -o cmTryCompileExec3901807647 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment  -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1575942100/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1575942100.dir/build.make CMakeFiles/cmTryCompileExec1575942100.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1575942100.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTryCompileExec1575942100.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking CXX executable cmTryCompileExec1575942100
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1575942100.dir/link.txt --verbose=1
+/usr/bin/c++     -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1575942100.dir/src.cxx.o  -o cmTryCompileExec1575942100 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-implicit-fallthrough"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment  -Wno-implicit-fallthrough'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3865351391/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3865351391.dir/build.make CMakeFiles/cmTryCompileExec3865351391.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3865351391.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wno-implicit-fallthrough -o CMakeFiles/cmTryCompileExec3865351391.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-implicit-fallthrough"
+Linking C executable cmTryCompileExec3865351391
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3865351391.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3865351391.dir/src.c.o  -o cmTryCompileExec3865351391 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3044049759/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3044049759.dir/build.make CMakeFiles/cmTryCompileExec3044049759.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3044049759.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec3044049759.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking C executable cmTryCompileExec3044049759
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3044049759.dir/link.txt --verbose=1
+/usr/bin/cc    -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec3044049759.dir/src.c.o  -o cmTryCompileExec3044049759 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec80733901/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec80733901.dir/build.make CMakeFiles/cmTryCompileExec80733901.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec80733901.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec80733901.dir/TestEndianess.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec80733901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec80733901.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec80733901.dir/TestEndianess.c.o  -o cmTryCompileExec80733901 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-shift-negative-value"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-shift-negative-value'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3317616691/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3317616691.dir/build.make CMakeFiles/cmTryCompileExec3317616691.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3317616691.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-cast-align -Wno-shadow -Wno-unused  -O3 -DNDEBUG -fPIE   -Wno-shift-negative-value -o CMakeFiles/cmTryCompileExec3317616691.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-shift-negative-value"
+Linking C executable cmTryCompileExec3317616691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3317616691.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-cast-align -Wno-shadow -Wno-unused  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3317616691.dir/src.c.o  -o cmTryCompileExec3317616691 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file io.h exists failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3767706948/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3767706948.dir/build.make CMakeFiles/cmTryCompileExec3767706948.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3767706948.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3767706948.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:16: fatal error: io.h: Aucun fichier ou dossier de ce type
+ #include <io.h>
+                ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec3767706948.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3767706948.dir/CheckIncludeFile.c.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3767706948.dir/CheckIncludeFile.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3767706948/fast' failed
+make: *** [cmTryCompileExec3767706948/fast] Error 2
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3465939018/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3465939018.dir/build.make CMakeFiles/cmTryCompileExec3465939018.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3465939018.dir/int8.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec3465939018.dir/int8.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int8.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int8.c:17:22: error: ‘INT8’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT8))
+                      ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int8.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec3465939018.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec3465939018.dir/int8.c.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3465939018.dir/int8.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec3465939018/fast' failed
+make: *** [cmTryCompileExec3465939018/fast] Error 2
+
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1914149588/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1914149588.dir/build.make CMakeFiles/cmTryCompileExec1914149588.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1914149588.dir/int16.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1914149588.dir/int16.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int16.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int16.c:17:22: error: ‘INT16’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT16))
+                      ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int16.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec1914149588.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1914149588.dir/int16.c.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1914149588.dir/int16.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1914149588/fast' failed
+make: *** [cmTryCompileExec1914149588/fast] Error 2
+
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1738382191/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1738382191.dir/build.make CMakeFiles/cmTryCompileExec1738382191.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1738382191.dir/int32.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1738382191.dir/int32.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int32.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int32.c:17:22: error: ‘INT32’ undeclared here (not in a function)
+ #define SIZE (sizeof(INT32))
+                      ^
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int32.c:19:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^
+CMakeFiles/cmTryCompileExec1738382191.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec1738382191.dir/int32.c.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1738382191.dir/int32.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec1738382191/fast' failed
+make: *** [cmTryCompileExec1738382191/fast] Error 2
+
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function setmode exists failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4203076838/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4203076838.dir/build.make CMakeFiles/cmTryCompileExec4203076838.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4203076838.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec4203076838.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTryCompileExec4203076838
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4203076838.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=setmode -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec4203076838.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4203076838 -rdynamic 
+CMakeFiles/cmTryCompileExec4203076838.dir/CheckFunctionExists.c.o: dans la fonction « main »:
+CheckFunctionExists.c:(.text.startup.main+0x13): référence indéfinie vers « setmode »
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTryCompileExec4203076838.dir/build.make:88: recipe for target 'cmTryCompileExec4203076838' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+Makefile:118: recipe for target 'cmTryCompileExec4203076838/fast' failed
+make[1]: *** [cmTryCompileExec4203076838] Error 1
+make: *** [cmTryCompileExec4203076838/fast] Error 2
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1941034221/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1941034221.dir/build.make CMakeFiles/cmTryCompileExec1941034221.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1941034221.dir/TestEndianess.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec1941034221.dir/TestEndianess.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec1941034221
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1941034221.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG    CMakeFiles/cmTryCompileExec1941034221.dir/TestEndianess.c.o  -o cmTryCompileExec1941034221 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec58611552/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec58611552.dir/build.make CMakeFiles/cmTryCompileExec58611552.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec58611552.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTryCompileExec58611552.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking C executable cmTryCompileExec58611552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec58611552.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes  -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow -Wno-maybe-uninitialized -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec58611552.dir/src.c.o  -o cmTryCompileExec58611552 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-pointer-compare"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-pointer-compare'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2578305030/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2578305030.dir/build.make CMakeFiles/cmTryCompileExec2578305030.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2578305030.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-pointer-compare -o CMakeFiles/cmTryCompileExec2578305030.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-pointer-compare"
+Linking C executable cmTryCompileExec2578305030
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2578305030.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2578305030.dir/src.c.o  -o cmTryCompileExec2578305030 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option "-Wno-absolute-value"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-absolute-value'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2700382961/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2700382961.dir/build.make CMakeFiles/cmTryCompileExec2700382961.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2700382961.dir/src.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG -fPIE   -Wno-absolute-value -o CMakeFiles/cmTryCompileExec2700382961.dir/src.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.c:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1: warning: unrecognized command line option "-Wno-absolute-value"
+Linking C executable cmTryCompileExec2700382961
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2700382961.dir/link.txt --verbose=1
+/usr/bin/cc     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith  -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -Wno-implicit-function-declaration -Wno-uninitialized -Wno-missing-prototypes -Wno-unused-but-set-parameter -Wno-missing-declarations -Wno-unused -Wno-shadow -Wno-sign-compare -Wno-strict-overflow  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2700382961.dir/src.c.o  -o cmTryCompileExec2700382961 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-misleading-indentation'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2665299472/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2665299472.dir/build.make CMakeFiles/cmTryCompileExec2665299472.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2665299472.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG -fPIE   -Wno-misleading-indentation -o CMakeFiles/cmTryCompileExec2665299472.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-misleading-indentation"
+Linking CXX executable cmTryCompileExec2665299472
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2665299472.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith  -Wsign-promo  -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-shadow -Wno-unused -Wno-sign-compare -Wno-undef -Wno-missing-declarations -Wno-uninitialized -Wno-switch -Wno-parentheses -Wno-array-bounds -Wno-extra -Wno-deprecated-declarations  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec2665299472.dir/src.cxx.o  -o cmTryCompileExec2665299472 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec221859871/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec221859871.dir/build.make CMakeFiles/cmTryCompileExec221859871.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec221859871.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec221859871.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: fatal error: linux/videodev.h: Aucun fichier ou dossier de ce type
+ #include <linux/videodev.h>
+                            ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec221859871.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec221859871.dir/CheckIncludeFile.c.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec221859871.dir/CheckIncludeFile.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec221859871/fast' failed
+make: *** [cmTryCompileExec221859871/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4111418370/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4111418370.dir/build.make CMakeFiles/cmTryCompileExec4111418370.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4111418370.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTryCompileExec4111418370.dir/CheckIncludeFile.c.o   -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: fatal error: sys/videoio.h: Aucun fichier ou dossier de ce type
+ #include <sys/videoio.h>
+                         ^
+compilation terminated.
+CMakeFiles/cmTryCompileExec4111418370.dir/build.make:57: recipe for target 'CMakeFiles/cmTryCompileExec4111418370.dir/CheckIncludeFile.c.o' failed
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec4111418370.dir/CheckIncludeFile.c.o] Error 1
+Makefile:118: recipe for target 'cmTryCompileExec4111418370/fast' failed
+make: *** [cmTryCompileExec4111418370/fast] Error 2
+
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-missing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec737828298/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec737828298.dir/build.make CMakeFiles/cmTryCompileExec737828298.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec737828298.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG -fPIE   -Wno-missing-prototypes -o CMakeFiles/cmTryCompileExec737828298.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wno-missing-prototypes’ is valid for C/ObjC but not for C++
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+Linking CXX executable cmTryCompileExec737828298
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec737828298.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec737828298.dir/src.cxx.o  -o cmTryCompileExec737828298 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-tautological-undefined-compare"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-tautological-undefined-compare'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3618564753/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3618564753.dir/build.make CMakeFiles/cmTryCompileExec3618564753.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3618564753.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG -fPIE   -Wno-tautological-undefined-compare -o CMakeFiles/cmTryCompileExec3618564753.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-tautological-undefined-compare"
+Linking CXX executable cmTryCompileExec3618564753
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3618564753.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3618564753.dir/src.cxx.o  -o cmTryCompileExec3618564753 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-const-variable'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3599379608/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3599379608.dir/build.make CMakeFiles/cmTryCompileExec3599379608.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3599379608.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-unused-const-variable -o CMakeFiles/cmTryCompileExec3599379608.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-unused-const-variable"
+Linking CXX executable cmTryCompileExec3599379608
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3599379608.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec3599379608.dir/src.cxx.o  -o cmTryCompileExec3599379608 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option "-Wno-shorten-64-to-32"'
+Compilation failed:
+    source file: '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-shorten-64-to-32'
+===== BUILD LOG =====
+Change Dir: /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec973382242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec973382242.dir/build.make CMakeFiles/cmTryCompileExec973382242.dir/build
+make[1]: Entering directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec973382242.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG -fPIE   -Wno-shorten-64-to-32 -o CMakeFiles/cmTryCompileExec973382242.dir/src.cxx.o -c /home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp/src.cxx:1:0: warning: ignoring #pragma   [-Wunknown-pragmas]
+ #pragma
+ ^
+cc1plus: warning: unrecognized command line option "-Wno-shorten-64-to-32"
+Linking CXX executable cmTryCompileExec973382242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec973382242.dir/link.txt --verbose=1
+/usr/bin/c++      -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security   -Winit-self -Wpointer-arith   -Wuninitialized -Winit-self -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -mfpmath=sse -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function  -O3 -DNDEBUG     -Wl,--gc-sections CMakeFiles/cmTryCompileExec973382242.dir/src.cxx.o  -o cmTryCompileExec973382242 -rdynamic 
+make[1]: Leaving directory '/home/bravej/Documents/AnalyseImage/linux/opencv/release/CMakeFiles/CMakeTmp'
+
+===== END =====
+

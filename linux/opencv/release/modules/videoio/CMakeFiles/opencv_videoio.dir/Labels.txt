@@ -1,0 +1,55 @@
+# Target labels
+ Main
+ opencv_videoio
+ Module
+# Source files and their labels
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/include/opencv2/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/include/opencv2/videoio/videoio.hpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/include/opencv2/videoio/cap_ios.h
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/include/opencv2/videoio/videoio_c.h
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap.cpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap_images.cpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap_mjpeg_encoder.cpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap_mjpeg_decoder.cpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap_v4l.cpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap_ffmpeg.cpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/precomp.hpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/modules/videoio/src/cap_ffmpeg_impl.hpp
+ Main
+ opencv_videoio
+ Module
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/cvconfig.h
+/home/bravej/Documents/AnalyseImage/linux/opencv/release/opencv2/opencv_modules.hpp
