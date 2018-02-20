@@ -9,13 +9,15 @@ using namespace std;
 
 
 class Histogram {
-	IplImage m_Image;
-	
+	private:
+		IplImage m_Image;
+		Mat 	 m_MatImage;
 	public:
 		Histogram (Mat image){
-			m_Image = image;
+			m_Image    = image;
+			m_MatImage = image;
 		}
-	
+
 	 	void drawHistogram (){
 			CvHistogram* hist;	
 			IplImage* imgHistogram = 0;		
@@ -48,7 +50,7 @@ class Histogram {
 			cvRectangle(imgHistogram, cvPoint(0, 0), cvPoint(512, 200), CV_RGB(255, 255, 255), -1);
 			//draw the histogram
 			for (int i = 0; i < bins; ++i) {
-				value = cvGetReal1D(hist->bins, i*2);
+				value = cvGetReal1D(hist->bins, i);
 				normalized = cvRound(value * 200 / max_value);
 				cvLine(imgHistogram, cvPoint(i*2, 200), cvPoint(i*2, 200 - normalized), CV_RGB(0, 0, 0));
 				printf("%d\n", normalized);
@@ -58,7 +60,32 @@ class Histogram {
 
 		}
 	
-	
+		void drawHistogram2(){
+			int pixels [256];
+			Mat newImage(512, 512, CV_8UC1, Scalar(70));
+			for (int i = 0; i < 256; ++i){
+				pixels[i] = 0;
+			}			
+			
+			for (int i = 0; i < m_MatImage.rows; ++i){
+				for (int j = 0; j < m_MatImage.cols; ++j){
+					++pixels[m_MatImage.at<uchar>(j,i)];            
+        		}
+        	}
+        	IplImage tmp = newImage;
+        	int normalized;
+        	int max = *max_element(pixels, pixels+256);
+        	for (int i = 0; i < 256; ++i) {
+				normalized = cvRound(pixels[i] * 500 / max);
+
+				cvLine(&tmp, cvPoint(i*2, 512), cvPoint(i*2, 512 - normalized), CV_RGB(0, 0, 0));
+				cout << normalized << endl;
+			}
+
+			imshow("Mon Histogram", newImage);
+	  		waitKey(0);
+
+		}	
 };
 
 int main( int argc, char **argv ) {
@@ -78,7 +105,8 @@ int main( int argc, char **argv ) {
     
 
 	Histogram hist(image);
-	hist.drawHistogram();	    
+//	hist.drawHistogram();	    
+	hist.drawHistogram2();
     return 0;
 }
 
