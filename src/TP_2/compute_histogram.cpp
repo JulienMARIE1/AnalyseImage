@@ -12,6 +12,8 @@ class Histogram {
 	private:
 		IplImage m_Image;
 		Mat 	 m_MatImage;
+		int 	 m_Pixels [256];
+
 	public:
 		Histogram (Mat image){
 			m_Image    = image;
@@ -61,31 +63,45 @@ class Histogram {
 		}
 	
 		void drawHistogram2(){
-			int pixels [256];
 			Mat newImage(512, 512, CV_8UC1, Scalar(70));
 			for (int i = 0; i < 256; ++i){
-				pixels[i] = 0;
+				m_Pixels[i] = 0;
 			}			
 			
 			for (int i = 0; i < m_MatImage.rows; ++i){
 				for (int j = 0; j < m_MatImage.cols; ++j){
-					++pixels[m_MatImage.at<uchar>(j,i)];            
+					++m_Pixels[m_MatImage.at<uchar>(j,i)];            
         		}
         	}
         	IplImage tmp = newImage;
         	int normalized;
-        	int max = *max_element(pixels, pixels+256);
+        	int max = *max_element(m_Pixels, m_Pixels+256);
         	for (int i = 0; i < 256; ++i) {
-				normalized = cvRound(pixels[i] * 500 / max);
+				normalized = cvRound(m_Pixels[i] * 500 / max);
 
 				cvLine(&tmp, cvPoint(i*2, 512), cvPoint(i*2, 512 - normalized), CV_RGB(0, 0, 0));
-				cout << normalized << endl;
+//				cout << normalized << endl;
 			}
 
 			imshow("Mon Histogram", newImage);
-	  		waitKey(0);
-
+	  		//waitKey(0);
 		}	
+		
+		void expensionDynamique (){
+			Mat newImage(m_MatImage.rows, m_MatImage.cols, CV_8UC1, Scalar(255));
+        	double max = *max_element(m_Pixels, m_Pixels+256);
+			double min = *min_element(m_Pixels, m_Pixels+256);
+			//cout << "Max : " << max << " Min : " << min << endl;
+			minMaxLoc(m_MatImage, &min, &max);
+			for (int i = 0; i < m_MatImage.rows; ++i){
+				for (int j = 0; j < m_MatImage.cols; ++j){
+					newImage.at<uchar>(j,i) = (255.0/(max- min))*(m_MatImage.at<uchar>(j,i) - min);
+					cout << (int)newImage.at<uchar>(j,i) << endl ;
+        		}
+        	}
+			imshow("Image en expension dynamique", newImage);
+	  		waitKey(0);
+		}
 };
 
 int main( int argc, char **argv ) {
@@ -107,6 +123,7 @@ int main( int argc, char **argv ) {
 	Histogram hist(image);
 //	hist.drawHistogram();	    
 	hist.drawHistogram2();
+	hist.expensionDynamique();
     return 0;
 }
 
