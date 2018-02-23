@@ -1,0 +1,14 @@
+OPENCV_LIBS = -L../../lib/ -lIlmImf -llibtiff -lopencv_imgcodecs -lippicv -llibwebp -lopencv_imgproc -llibjasper -lopencv_core -lzlib -llibjpeg -lopencv_hal -llibpng -lopencv_highgui
+OSX_LIBS = -framework OpenCL -framework Cocoa
+INC = -I../../include/
+
+all : compute_histogram  
+
+compute_histogramTmp: image_expansion.cpp compute_histogram.cpp 
+	$(CXX) -c image_expansion.cpp compute_histogram.cpp $(INC)
+
+compute_histogram : compute_histogramTmp
+	$(CXX) -o compute_histogram image_expansion.o compute_histogram.o $(OSX_LIBS) $(OPENCV_LIBS)
+
+clean :
+	rm *.o compute_histogram

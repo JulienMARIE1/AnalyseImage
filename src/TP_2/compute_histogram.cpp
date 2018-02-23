@@ -7,14 +7,16 @@
 using namespace cv;
 using namespace std;
 
-
 class Histogram {
 	private:
 		IplImage m_Image;
 		Mat 	 m_MatImage;
-		int 	 m_Pixels [256];
-
+		int 	 m_Pixels [256]; // tableau qui compte les occurrences de chaque pixel dans l'image
+        float    m_PixelsFrequence [256];// tableau de fréquence d'apparition
 	public:
+    
+        /* @param : image pour laquelle on va calculer l'histogramme */
+    
 		Histogram (Mat image){
 			m_Image    = image;
 			m_MatImage = image;
@@ -42,88 +44,71 @@ class Histogram {
 			cvCalcHist(planes, hist, 0, NULL);
 
 			cvGetMinMaxHistValue(hist, &min_value, &max_value);
-
-			printf("min: %f, max: %f\n", min_value, max_value);
-			
 			
 			//create an 8 bits single channel image to hold the histogram
 			//paint it white
-			imgHistogram = cvCreateImage(cvSize(bins*2, 200), 8, 1);
-			cvRectangle(imgHistogram, cvPoint(0, 0), cvPoint(512, 200), CV_RGB(255, 255, 255), -1);
+			imgHistogram = cvCreateImage(cvSize(bins*2, 512), 8, 1);
+			cvRectangle(imgHistogram, cvPoint(0, 0), cvPoint(512, 512), CV_RGB(255, 255, 255), -1);
 			//draw the histogram
 			for (int i = 0; i < bins; ++i) {
 				value = cvGetReal1D(hist->bins, i);
-				normalized = cvRound(value * 200 / max_value);
-				cvLine(imgHistogram, cvPoint(i*2, 200), cvPoint(i*2, 200 - normalized), CV_RGB(0, 0, 0));
-				printf("%d\n", normalized);
+				normalized = cvRound(value * 500 / max_value);
+				cvLine(imgHistogram, cvPoint(i, 512), cvPoint(i, 512 - normalized), CV_RGB(0, 0, 0));
 			}	
 	  		cvShowImage("histogram", imgHistogram);
 	  		waitKey(0);
 
 		}
-	
-		void drawHistogram2(){
-			Mat newImage(512, 512, CV_8UC1, Scalar(70));
+        /* @param : nom de la fenetre cree
+           @brief : cette
+         */
+		void drawHistogram2(string nom){
+			Mat newImage(256, 256, CV_8UC1, Scalar(70));
 			for (int i = 0; i < 256; ++i){
 				m_Pixels[i] = 0;
 			}			
 			
 			for (int i = 0; i < m_MatImage.rows; ++i){
 				for (int j = 0; j < m_MatImage.cols; ++j){
-					++m_Pixels[m_MatImage.at<uchar>(j,i)];            
+					++m_Pixels[m_MatImage.at<uchar>(i,j)];
         		}
         	}
+            float nbPixels = 0;
+            for (int i = 0; i < 256; ++i)
+                nbPixels += m_Pixels[i];
+            
+            for (int i = 0; i < 256; ++i){
+                    m_PixelsFrequence[i] = m_Pixels[i]/nbPixels*100;
+                
+            }
         	IplImage tmp = newImage;
         	int normalized;
-        	int max = *max_element(m_Pixels, m_Pixels+256);
+        	float max = *max_element(m_PixelsFrequence, m_PixelsFrequence+256);
         	for (int i = 0; i < 256; ++i) {
-				normalized = cvRound(m_Pixels[i] * 500 / max);
+				normalized = m_PixelsFrequence[i] * 250 / max;
 
-				cvLine(&tmp, cvPoint(i*2, 512), cvPoint(i*2, 512 - normalized), CV_RGB(0, 0, 0));
-//				cout << normalized << endl;
+				cvLine(&tmp, cvPoint(i, 256), cvPoint(i, 256 - normalized), CV_RGB(0, 0, 0));
+				cout << "Norm" << normalized << endl;
 			}
 
-			imshow("Mon Histogram", newImage);
+			imshow(nom, newImage);
 	  		//waitKey(0);
 		}	
-		
-		void expensionDynamique (){
+        void setImage(Mat image){
+            m_MatImage = image;
+        }
+		Mat expensionDynamique (){
 			Mat newImage(m_MatImage.rows, m_MatImage.cols, CV_8UC1, Scalar(255));
-        	double max = *max_element(m_Pixels, m_Pixels+256);
-			double min = *min_element(m_Pixels, m_Pixels+256);
+        	double max ;
+			double min ;
 			//cout << "Max : " << max << " Min : " << min << endl;
 			minMaxLoc(m_MatImage, &min, &max);
 			for (int i = 0; i < m_MatImage.rows; ++i){
 				for (int j = 0; j < m_MatImage.cols; ++j){
-					newImage.at<uchar>(j,i) = (255.0/(max- min))*(m_MatImage.at<uchar>(j,i) - min);
-					cout << (int)newImage.at<uchar>(j,i) << endl ;
+					newImage.at<uchar>(i,j) = (255.0/(max- min))*(m_MatImage.at<uchar>(i, j) - min);
+//					cout << (int)newImage.at<uchar>(j,i) << endl ;
         		}
         	}
-			imshow("Image en expension dynamique", newImage);
-	  		waitKey(0);
+            return newImage;
 		}
 };
-
-int main( int argc, char **argv ) {
-    if ( argc != 2 ) {
-        printf( "Usage: display_image ImageToLoadAndDisplay\n" );
-        return -1;
-    }
-    
-    Mat image = imread(argv[1], 0); /* Read the file */
-    if ( !image.data ) { /* Check for invalid input */
-        printf("Could not open or find the image\n") ;
-        return -1;
-    }
-    
-    namedWindow( "Display window"  ); /* Create a window for display */
-    imshow("Display window",image);
-    
-
-	Histogram hist(image);
-//	hist.drawHistogram();	    
-	hist.drawHistogram2();
-	hist.expensionDynamique();
-    return 0;
-}
-
