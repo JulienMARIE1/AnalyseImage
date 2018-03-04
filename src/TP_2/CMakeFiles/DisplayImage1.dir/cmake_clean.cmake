@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DisplayImage1.dir/compute_histogram.cpp.o"
+  "CMakeFiles/DisplayImage1.dir/image_expansion.cpp.o"
   "DisplayImage1.pdb"
   "DisplayImage1"
 )

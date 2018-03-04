@@ -24,7 +24,6 @@ int main( int argc, char **argv ) {
     
     
     Histogram hist(image);
-    //hist.drawHistogram();
     hist.drawHistogram2("Histogram 1");
     Mat imageExpansion = hist.expensionDynamique();
     hist.setImage(imageExpansion);

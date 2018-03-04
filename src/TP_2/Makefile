@@ -115,29 +115,29 @@ DisplayImage1/fast:
 	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/build
 .PHONY : DisplayImage1/fast
 
-compute_histogram.o: compute_histogram.cpp.o
-.PHONY : compute_histogram.o
+image_expansion.o: image_expansion.cpp.o
+.PHONY : image_expansion.o
 
 # target to build an object file
-compute_histogram.cpp.o:
-	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/compute_histogram.cpp.o
-.PHONY : compute_histogram.cpp.o
+image_expansion.cpp.o:
+	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/image_expansion.cpp.o
+.PHONY : image_expansion.cpp.o
 
-compute_histogram.i: compute_histogram.cpp.i
-.PHONY : compute_histogram.i
+image_expansion.i: image_expansion.cpp.i
+.PHONY : image_expansion.i
 
 # target to preprocess a source file
-compute_histogram.cpp.i:
-	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/compute_histogram.cpp.i
-.PHONY : compute_histogram.cpp.i
+image_expansion.cpp.i:
+	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/image_expansion.cpp.i
+.PHONY : image_expansion.cpp.i
 
-compute_histogram.s: compute_histogram.cpp.s
-.PHONY : compute_histogram.s
+image_expansion.s: image_expansion.cpp.s
+.PHONY : image_expansion.s
 
 # target to generate assembly for a file
-compute_histogram.cpp.s:
-	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/compute_histogram.cpp.s
-.PHONY : compute_histogram.cpp.s
+image_expansion.cpp.s:
+	$(MAKE) -f CMakeFiles/DisplayImage1.dir/build.make CMakeFiles/DisplayImage1.dir/image_expansion.cpp.s
+.PHONY : image_expansion.cpp.s
 
 # Help Target
 help:
@@ -148,9 +148,9 @@ help:
 	@echo "... DisplayImage1"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... compute_histogram.o"
-	@echo "... compute_histogram.i"
-	@echo "... compute_histogram.s"
+	@echo "... image_expansion.o"
+	@echo "... image_expansion.i"
+	@echo "... image_expansion.s"
 .PHONY : help
 
 

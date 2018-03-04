@@ -21,35 +21,34 @@ class Histogram {
 			m_Image    = image;
 			m_MatImage = image;
 		}
-
+		
 	 	void drawHistogram (){
 			CvHistogram* hist;	
 			IplImage* imgHistogram = 0;		
-			//size of the histogram -1D histogram
+			//taille de l'histogramme
 			int bins = 256;
 			int hsize[] = {bins};
-			//max and min value of the histogram
+			//valeur max et min de l'histogramme 
 			float max_value = 0, min_value = 0;
-			//value and normalized value
+			
 			float value;
 			int normalized;
-			//ranges - grayscale 0 to 256
+			
 			float xranges[] = {0, 256};
 			float* ranges[] = {xranges};
 
-			//planes to obtain the histogram, in this case just one
 			IplImage * planes[] = {&m_Image};
-			//get the histogram and some info about it
+			
+			// calcul l'histogramme
 			hist = cvCreateHist(1, hsize, CV_HIST_ARRAY, ranges, 1);
 			cvCalcHist(planes, hist, 0, NULL);
 
 			cvGetMinMaxHistValue(hist, &min_value, &max_value);
 			
-			//create an 8 bits single channel image to hold the histogram
-			//paint it white
+			//creer l'image contenant l'histogramme
 			imgHistogram = cvCreateImage(cvSize(bins*2, 512), 8, 1);
 			cvRectangle(imgHistogram, cvPoint(0, 0), cvPoint(512, 512), CV_RGB(255, 255, 255), -1);
-			//draw the histogram
+			//dessine l'histogramme
 			for (int i = 0; i < bins; ++i) {
 				value = cvGetReal1D(hist->bins, i);
 				normalized = cvRound(value * 500 / max_value);
@@ -60,19 +59,26 @@ class Histogram {
 
 		}
         /* @param : nom de la fenetre cree
-           @brief : cette
+           @brief : cette méthode permet de recuperer et d'afficher 
+									  l'histogramme, de l'image en donné membre. Pour cela
+										on va parcourir toute l'image, et compter 
+										le nombre d'occurence de chaque valeur de pixels
          */
 		void drawHistogram2(string nom){
-			Mat newImage(256, 256, CV_8UC1, Scalar(70));
+			Mat newImage(256, 256, CV_8UC1, Scalar(70)); // créer l'image pour l'histogramme
+			
+			/* initialise le tableau de pixel */
 			for (int i = 0; i < 256; ++i){
 				m_Pixels[i] = 0;
 			}			
 			
+			/* Compte le nombre d'occurrence de chaque valeur de pixels */		
 			for (int i = 0; i < m_MatImage.rows; ++i){
 				for (int j = 0; j < m_MatImage.cols; ++j){
 					++m_Pixels[m_MatImage.at<uchar>(i,j)];
-        		}
-        	}
+				}
+		    }
+			/* Calcul la fréquence d'apparition des pixels */
             float nbPixels = 0;
             for (int i = 0; i < 256; ++i)
                 nbPixels += m_Pixels[i];
@@ -84,7 +90,8 @@ class Histogram {
         	IplImage tmp = newImage;
         	int normalized;
         	float max = *max_element(m_PixelsFrequence, m_PixelsFrequence+256);
-        	for (int i = 0; i < 256; ++i) {
+        	/* On normalise et on dessine l'histogramme */
+			for (int i = 0; i < 256; ++i) {
 				normalized = m_PixelsFrequence[i] * 250 / max;
 
 				cvLine(&tmp, cvPoint(i, 256), cvPoint(i, 256 - normalized), CV_RGB(0, 0, 0));
@@ -97,12 +104,19 @@ class Histogram {
         void setImage(Mat image){
             m_MatImage = image;
         }
+
+		/* @brief : cette méthode va, à partir de l'histogramme calculé
+		 *          afficher la nouvelle image en applicant 
+		 *          la formule d'expension dynamique 
+		 */
 		Mat expensionDynamique (){
+			/* initialise la nouvelle image */			
 			Mat newImage(m_MatImage.rows, m_MatImage.cols, CV_8UC1, Scalar(255));
         	double max ;
 			double min ;
-			//cout << "Max : " << max << " Min : " << min << endl;
 			minMaxLoc(m_MatImage, &min, &max);
+			
+			/* On dessine l'image pixel par pixel */
 			for (int i = 0; i < m_MatImage.rows; ++i){
 				for (int j = 0; j < m_MatImage.cols; ++j){
 					newImage.at<uchar>(i,j) = (255.0/(max- min))*(m_MatImage.at<uchar>(i, j) - min);

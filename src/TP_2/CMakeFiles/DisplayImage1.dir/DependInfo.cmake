@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bravej/Documents/AnalyseImage/src/TP_2/compute_histogram.cpp" "/home/bravej/Documents/AnalyseImage/src/TP_2/CMakeFiles/DisplayImage1.dir/compute_histogram.cpp.o"
+  "/home/bravej/Documents/AnalyseImage/src/TP_2/image_expansion.cpp" "/home/bravej/Documents/AnalyseImage/src/TP_2/CMakeFiles/DisplayImage1.dir/image_expansion.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

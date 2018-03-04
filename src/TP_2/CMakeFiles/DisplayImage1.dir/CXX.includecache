@@ -18,6 +18,20 @@ iostream
 string
 -
 
+/home/bravej/Documents/AnalyseImage/src/TP_2/image_expansion.cpp
+opencv2/imgcodecs.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+iostream
+-
+string
+-
+compute_histogram.cpp
+/home/bravej/Documents/AnalyseImage/src/TP_2/compute_histogram.cpp
+
 /usr/local/include/opencv/cxcore.h
 opencv2/core/core_c.h
 /usr/local/include/opencv/opencv2/core/core_c.h
