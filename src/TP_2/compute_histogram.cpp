@@ -9,8 +9,8 @@ using namespace std;
 
 class Histogram {
 	private:
-		IplImage m_Image;
-		Mat 	 m_MatImage;
+		IplImage m_Image;  // utiliser pour le dessiner l'histogramme avec la méthode opencv
+		Mat 	 m_MatImage; // utiliser pour dessiner l'histogramme avec le calcul à la main
 		int 	 m_Pixels [256]; // tableau qui compte les occurrences de chaque pixel dans l'image
         float    m_PixelsFrequence [256];// tableau de fréquence d'apparition
 	public:
@@ -21,7 +21,9 @@ class Histogram {
 			m_Image    = image;
 			m_MatImage = image;
 		}
-		
+        /* @brief : méthode qui utilise la fonction de open cv
+         *          pour calculer l'histogramme
+         */
 	 	void drawHistogram (){
 			CvHistogram* hist;	
 			IplImage* imgHistogram = 0;		
@@ -67,7 +69,7 @@ class Histogram {
 		void drawHistogram2(string nom){
 			Mat newImage(256, 256, CV_8UC1, Scalar(70)); // créer l'image pour l'histogramme
 			
-			/* initialise le tableau de pixel */
+			/* initialise le tableau de pixel avec des valeurs à 0*/
 			for (int i = 0; i < 256; ++i){
 				m_Pixels[i] = 0;
 			}			
@@ -89,13 +91,16 @@ class Histogram {
             }
         	IplImage tmp = newImage;
         	int normalized;
+            /* cherche l'élèment maximum */
         	float max = *max_element(m_PixelsFrequence, m_PixelsFrequence+256);
         	/* On normalise et on dessine l'histogramme */
 			for (int i = 0; i < 256; ++i) {
+                /* calcul des valeurs normalisé pour avoir un
+                 bon affiche en fonction de la fréquence,
+                 d'apparition du pixel, de la valeur max et de la taille de la fenetre*/
 				normalized = m_PixelsFrequence[i] * 250 / max;
-
 				cvLine(&tmp, cvPoint(i, 256), cvPoint(i, 256 - normalized), CV_RGB(0, 0, 0));
-				cout << "Norm" << normalized << endl;
+				
 			}
 
 			imshow(nom, newImage);
@@ -114,11 +119,14 @@ class Histogram {
 			Mat newImage(m_MatImage.rows, m_MatImage.cols, CV_8UC1, Scalar(255));
         	double max ;
 			double min ;
+            
+            // cherche les valeurs min et max de l'image
 			minMaxLoc(m_MatImage, &min, &max);
 			
 			/* On dessine l'image pixel par pixel */
 			for (int i = 0; i < m_MatImage.rows; ++i){
 				for (int j = 0; j < m_MatImage.cols; ++j){
+                    // applique la transformation linéaire
 					newImage.at<uchar>(i,j) = (255.0/(max- min))*(m_MatImage.at<uchar>(i, j) - min);
 //					cout << (int)newImage.at<uchar>(j,i) << endl ;
         		}
