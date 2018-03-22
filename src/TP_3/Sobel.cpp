@@ -12,7 +12,7 @@ using namespace std;
 Mat src;
 string name;
 /// Global Variables
-const int alpha_slider_max = 200;
+const int alpha_slider_max = 500;
 int alpha_sliderS;
 int alpha_sliderC;
 int alpha_sliderC2;
@@ -21,13 +21,30 @@ int alpha_sliderL;
 int alphaL;
 
 
+int contours_detecte (Mat inImg){
+    int count = countNonZero(inImg);
+    return count;
+}
+
+bool is_detected (int x, int y){
+    
+}
+
+int contours_corrects (Mat img){
+    int cpt = 0;
+    for (int i = 0; i < img.row; ++i){
+        for (int j = 0; j < img.col; ++j){
+            
+        }
+    }
+}
 
 void SobelS(int, void*){
     int alpha = alpha_sliderS ;
     Mat src_gray;
 
     Mat grad;
-
+    Mat binaire;
     int scale = 1;
     int delta = 0;
     int ddepth = CV_16S;
@@ -53,15 +70,16 @@ void SobelS(int, void*){
     addWeighted( abs_grad_x, 0.5, abs_grad_y, 0.5, 0, grad );
     
     
-    
-    imshow("Sobel", grad);
+    binaire = grad > 128;
+    cout << "Contour detecte Sobel: " <<contours_detecte (binaire) << endl;
+    imshow("Sobel", binaire);
     
     cv::waitKey(1);  /* Wait for a keystroke in the window */
 
 }
 void LaplaceS (int, void*){
     alphaL = alpha_sliderL;
-    Mat src_gray, dst;
+    Mat src_gray, dst, binaire;
     int kernel_size = 3;
     int scale = 1;
     int delta = 0;
@@ -72,7 +90,7 @@ void LaplaceS (int, void*){
 
     
     /// Remove noise by blurring with a Gaussian filter
-    //GaussianBlur( srcTL, srcTL, Size(3,3), 0, 0, BORDER_DEFAULT );
+    GaussianBlur( src, src, Size(3,3), 0, 0, BORDER_DEFAULT );
     
     /// Convert the image to grayscale
     cvtColor( src, src_gray, CV_BGR2GRAY );
@@ -83,27 +101,22 @@ void LaplaceS (int, void*){
     //scale
     Laplacian( src_gray, dst, ddepth, kernel_size, alphaL, delta, BORDER_DEFAULT );
     convertScaleAbs( dst, abs_dst );
-    subtract(Scalar(255,255,255), abs_dst, abs_dst );
+    //subtract(Scalar(255,255,255), abs_dst, abs_dst );
+
+    binaire = abs_dst > 128;
+    cout << "Contour detecte Laplace: " <<contours_detecte (binaire) << endl;
+
     /// Show what you got
-    imshow("Laplace", abs_dst );
+    imshow("Laplace", binaire);
     
     waitKey(1);
 }
 
-int contours_detecte (Mat inImg){
-    vector<vector<Point> > contours;
-    int cpt = 0;
-    findContours(inImg, contours, CV_RETR_EXTERNAL, CV_CHAIN_APPROX_SIMPLE);
-    for (int i = 0; i < contours.size(); ++i)
-        cpt += contourArea(contours[i]);
-    cout << cpt << endl ;
-    return 0;
-}
 
 void CannyS(int, void*) {
     int alpha = alpha_sliderC ;
     int alpha2 = alpha_sliderC2;
-    Mat gray, edge, draw;
+    Mat gray, edge, draw, binaire;
     src = imread(name);
 
     cvtColor(src, gray, CV_BGR2GRAY);
@@ -112,8 +125,10 @@ void CannyS(int, void*) {
     
     edge.convertTo(draw, CV_8U);
    
-    contours_detecte(draw);
-    imshow("Canny", draw);
+    binaire = draw > 128;
+    cout << "Contour detecte Canny: " << contours_detecte (binaire) << endl;
+
+    imshow("Canny", binaire);
     
 }
 
