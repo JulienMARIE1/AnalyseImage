@@ -12,7 +12,7 @@ using namespace std;
 Mat src;
 string name;
 /// Global Variables
-const int alpha_slider_max = 500;
+const int alpha_slider_max = 100;
 int alpha_sliderS;
 int alpha_sliderC;
 int alpha_sliderC2;
@@ -32,9 +32,11 @@ bool is_detected (int x, int y){
 
 int contours_corrects (Mat img){
     int cpt = 0;
-    for (int i = 0; i < img.row; ++i){
-        for (int j = 0; j < img.col; ++j){
-            
+    for (int i = 0; i < img.rows; ++i){
+        for (int j = 0; j < img.cols; ++j){
+            if (img.at<uchar>(i,j) == 0){
+                
+            }
         }
     }
 }
@@ -49,7 +51,8 @@ void SobelS(int, void*){
     int delta = 0;
     int ddepth = CV_16S;
     src = imread(name);
-
+    Mat gradXY, result;
+    
     // réduit le bruit de l'image
     cv::GaussianBlur( src, src, Size(3,3), 0, 0, BORDER_DEFAULT );
     // transforme l'image ne nuance de gris
@@ -59,20 +62,23 @@ void SobelS(int, void*){
     Mat abs_grad_x, abs_grad_y;
     // scale
     /// Gradient X
-    Sobel( src_gray, grad_x, ddepth, 1, 0, 3, alpha, delta, BORDER_DEFAULT );
+    Sobel( src_gray, grad_x, ddepth, 1, 0, 3);
     /// Gradient Y
-    Sobel( src_gray, grad_y, ddepth, 0, 1, 3, alpha, delta, BORDER_DEFAULT );
+    Sobel( src_gray, grad_y, ddepth, 0, 1, 3);
     
+    double min, max;
+    gradXY = grad_x + grad_y;
+    minMaxLoc(gradXY, &min, &max);
+    min = fabs(min);
+    if (min > max) max = min;
     // convertie les résultats en CV_8U
-    convertScaleAbs( grad_x, abs_grad_x );
-    convertScaleAbs( grad_y, abs_grad_y );
+    convertScaleAbs( gradXY, gradXY, 255./max);
     
-    addWeighted( abs_grad_x, 0.5, abs_grad_y, 0.5, 0, grad );
+    result = 0;
+    threshold (gradXY, result, alpha, 255, THRESH_BINARY);
     
-    
-    binaire = grad > 128;
-    cout << "Contour detecte Sobel: " <<contours_detecte (binaire) << endl;
-    imshow("Sobel", binaire);
+    cout << "Contour detecte Sobel: " <<contours_detecte (result) << endl;
+    imshow("Sobel", result);
     
     cv::waitKey(1);  /* Wait for a keystroke in the window */
 
